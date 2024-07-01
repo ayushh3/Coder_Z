@@ -13,7 +13,7 @@ function Sidebar() {
   const handleSignOut = () => {
     signOut(auth)
       .then(() => {
-        // Sign-out successful
+        // Succesfully signed out
       })
       .catch((error) => {
         // An error happened

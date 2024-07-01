@@ -4,7 +4,7 @@ import TerminalIcon from '@mui/icons-material/Terminal';
 import SendIcon from '@mui/icons-material/Send';
 import { Link } from 'react-router-dom';
 import NotificationImportantIcon from '@mui/icons-material/NotificationImportant';
-
+//bruh
 import './sidebar.css';
 import { signOut } from 'firebase/auth';
 import { auth } from '../../firebase';

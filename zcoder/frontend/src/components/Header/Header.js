@@ -8,7 +8,7 @@ import { useSelector } from 'react-redux';
 import { selectUser } from '../../features/userSlice';
 
 
-
+//verified this works
 function Header() {
     const user = useSelector(selectUser);
     const navigate = useNavigate();

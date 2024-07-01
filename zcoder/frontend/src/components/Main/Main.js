@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import FilterIcon from '@mui/icons-material/FilterList'
 import AllQuestions from './AllQuestions'
 import './main.css'
-
+//mainfunction
 function Main({ questions }) {
     return (
         <div className='main'>

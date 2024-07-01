@@ -3,7 +3,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './allquestions.css';
 import ReactHtmlParser from 'html-react-parser'
-
+//ok
 function AllQuestions({ question }) {
 
     const tags = JSON.parse(question?.tags[0]);

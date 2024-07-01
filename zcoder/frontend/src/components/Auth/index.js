@@ -81,7 +81,7 @@ function Index() {
         <div className='auth'>
             <div className='auth-container'>
                 <img src="/uploads/Zcoder-logo.png" alt="Project Logo" className='logo' />
-                <p>One Stop Destination for All Your Coding Needs</p>
+                <p>One stop Destination for All Your Coding Needs</p>
                 <div className='sign-options'>
                     <div className='single-option' onClick={handleSignInGoogle}>
                         <GoogleIcon />

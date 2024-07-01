@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import './ChatRoom.css';
 import { selectUser } from '../../features/userSlice';
 import { useSelector } from 'react-redux';
-
+//works fine
 const ChatRoom = () => {
     const user = useSelector(selectUser);
     const [messages, setMessages] = useState([]);

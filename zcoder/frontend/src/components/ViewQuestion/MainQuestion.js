@@ -12,7 +12,7 @@ import axios from 'axios';
 import ReactHtmlParser from 'html-react-parser';
 import { useSelector } from 'react-redux';
 import { selectUser } from '../../features/userSlice';
-
+//ok
 function MainQuestion() {
     const [show, setShow] = useState(false);
     const [questionData, setQuestionData] = useState();

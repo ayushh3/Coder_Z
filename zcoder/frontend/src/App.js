@@ -27,7 +27,7 @@ function PrivateRoute({ element: Element, ...rest }) {
 
 function App() {
   const dispatch = useDispatch();
-
+//User State Management
   useEffect(() => {
     auth.onAuthStateChanged((authUser) => {
       if (authUser) {

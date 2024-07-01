@@ -33,7 +33,7 @@ function Profile() {
 
     const handleSignOut = () => {
         signOut(auth).then(() => {
-            // Sign-out successful
+            // Sign-out is successful
         }).catch((error) => {
             // An error happened
             console.error("Error signing out:", error);

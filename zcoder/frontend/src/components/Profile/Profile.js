@@ -12,7 +12,7 @@ function Profile() {
     const [editMode, setEditMode] = useState(false);
     const [bio, setBio] = useState("");
     const [newBio, setNewBio] = useState("");
-
+    //function to get the error
     useEffect(() => {
         const getBio = async () => {
             try {
